@@ -7,7 +7,7 @@
 
 % returns cost (dollars) of floating head heat exchanger
 
-function A = heatXchanger(Q_MW, Th2, Th1, Tc2, Tc1, U, a, b)
+function Cp = heatXchanger(Q_MW, Th2, Th1, Tc2, Tc1, U, a, b)
 
 % MW to Btu/hr
 Q = Q_MW * 3.6e9 * 0.00094781712; % Btu/hr
