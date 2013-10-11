@@ -5,3 +5,6 @@
 - pump.m
 > return cost of pump(s)
 - inputs: (array of) amount to be pumped [g/s], pressure [torr]
+
+- distillation_column.m
+> script that prints conditions and compositions of a heptane-pentance distillation column
