@@ -1,0 +1,7 @@
+- heatXchanger.m
+> returns cost of heat exchanger 
+> inputs: heat load [MW], approach temperatures [C], overall heat coefficient, material factors
+
+- pump.m
+> return cost of pump(s)
+- inputs: (array of) amount to be pumped [g/s], pressure [torr]
